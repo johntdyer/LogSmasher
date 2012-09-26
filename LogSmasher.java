@@ -88,7 +88,7 @@ public class LogSmasher  extends Thread
         {
         }
 
-        System.out.println("Starting LogBlaster");
+        System.out.println("Starting LogSmasher");
         System.out.println("--------------------");
         System.out.println(" - Host: " + host);
         System.out.println(" - Port: " + port);
