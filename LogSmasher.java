@@ -80,12 +80,13 @@ public class LogSmasher  extends Thread
         {
             threads = Integer.parseInt(args[0]);
             message_count = Integer.parseInt(args[1]);
-            account_count = Integer.parseInt(args[2]);
-            host = args[3];
+            //account_count = Integer.parseInt(args[2]);
+            host = args[2];
             port = Integer.parseInt(args[3]);
         }
         catch (Exception e)
         {
+            System.out.println(" ERROR -> " + e);
         }
 
         System.out.println("Starting LogSmasher");
